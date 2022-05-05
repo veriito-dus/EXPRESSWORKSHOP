@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,6 @@
   <link rel="stylesheet" class="posit-nav" href="css/settings/left-nav.css" />
   <link rel="stylesheet" class="theme-color" href="css/settings/red-color.css" />
 </head>
-
 <body>
   <!-- Preloader -->
   <div id="preloader">
@@ -112,7 +110,6 @@
     padding: 15px 30px;
     margin-top: 30px;
   }
-
   .iniciarSesion:hover {
     color: #d94c48;
   }

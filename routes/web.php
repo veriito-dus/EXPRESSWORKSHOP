@@ -41,3 +41,5 @@ Route::post('ExpressWorshop/Inv/Registro', 'InventarioController@store');
 Route::get('ExpressWorshop/Inv', 'InventarioController@index');
 Route::put('ExpressWorshop/Inv/editInv/{id}', 'InventarioController@update');
 
+//vistas por asignar
+Route::view('/navInicio', 'Navs/adminNav');
