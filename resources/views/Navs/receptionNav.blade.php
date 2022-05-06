@@ -39,18 +39,19 @@
     </div>
 
     <ul>
-      <li data-tooltip="Perfil" data-position="top">
-        <a href="#home" class="icon-h fas fa-user-tie"></a>
-      </li>
-      <li data-tooltip="Miembros" data-position="top">
-        <a href="#about" class="icon-a fas fa-users"></a>
-      </li>
       <li data-tooltip="Vehiculos" data-position="top">
-        <a href="#resume" class="icon-r fas fa-car"></a>
+        <a href="#home" class="icon-h fas fa-car"></a>
       </li>
+      <!-- <li data-tooltip="Reservas" data-position="top">
+        <a href="#about" class="icon-a fas fa-book-open"></a>
+      </li>
+      <li data-tooltip="Historial" data-position="bottom">
+        <a href="#resume" class="icon-r fas fa-list"></a>
+      </li> -->
+      <!--
       <li data-tooltip="Inventario" data-position="bottom">
         <a href="#portfolio" class="icon-p fas fa-clipboard-list"></a>
-      </li>
+      </li> -->
       <!-- <li data-tooltip="blog" data-position="top">
         <a href="#blog" class="icon-b fas fa-receipt"></a>
       </li>
