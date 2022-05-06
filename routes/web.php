@@ -45,7 +45,7 @@ Route::put('ExpressWorshop/Inv/editInv/{id}', 'InventarioController@update');
 Route::view('/logIn', 'logIn');
 Route::view('/createAccount', 'createAccount');
 Route::view('/administrador', 'Admin/indexAdmin');
-Route::view('/cliente', 'Client/indexClient');
+Route::view('/clientes', 'Client/indexClient');
 Route::view('/recepcion', 'Reception/indexReception');
 
 //Pruebas

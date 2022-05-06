@@ -1,4 +1,5 @@
 @extends('Navs.adminNav')
+<link rel="icon" href="img/logo.ico" />
 <div class="pt-home" style="background-image: url('img/home-bg.png')">
   <section>
 

@@ -12,6 +12,8 @@
   <link rel="stylesheet" class="back-color" href="css/style-dark.css">
   <link rel="stylesheet" class="posit-nav" href="css/settings/left-nav.css" />
   <link rel="stylesheet" class="theme-color" href="css/settings/red-color.css" />
+  <link rel="icon" href="img/logo.ico" />
+
 </head>
 
 <body>
