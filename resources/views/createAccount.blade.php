@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>EXPRESSWORKSHOP</title>
+  <title>EXPRESSWORKSHOP-Crear Usuario</title>
   <!-- <link rel="stylesheet" href="css/plugins/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/plugins/font-awesome.css">
   <link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css">
@@ -67,21 +67,39 @@
 
         <!-- Banner -->
         <div class="banner">
-          <div class="logIn-contenedor">
-            <div class="logIn">
-              <div class="logIn-texto">
-                <img class="iconoUser" src="img/user.png" alt="">
-                <p style="font-size:25px;">Iniciar Sesion</p>
+          <div class="account-contenedor">
+            <div class="account">
+              <div class="account-texto">
+                <img class="iconoAccount" src="img/account.png" alt="">
+                <p style="font-size:25px;">Crear Usuario</p>
               </div>
-              <form action="" class="formLogIn">
-                <div class="logIn-sesion">
-                  <input autofocus type="text" value="" name="User" id="Usuario" placeholder="Ingrese su Usuario" />
+              <form action="" class="formAccount">
+                <div class="formAccount-contenedor">
+                  <div class="account-sesion">
+                    <input autofocus type="text" value="" name="User" id="Usuario" placeholder="Ingrese su Nombre *" require />
+                  </div>
+                  <div class="account-sesion">
+                    <input type="text" value="" name="Cel" id="Telefono" placeholder="Ingrese su Telefono *" require />
+                  </div>
                 </div>
-                <div class="logIn-contraseña">
-                  <input type="password" value="" name="Password" id="Contraseña" placeholder="Ingrese su Contraseña" />
+                <div class="formAccount-contenedor">
+                  <div class="account-sesion">
+                    <input type="text" value="" name="User" id="Direccion" placeholder="Ingrese su Direccion" />
+                  </div>
+                  <div class="account-sesion">
+                    <input type="text" value="" name="User" id="Usuario" placeholder="Ingrese su Usuario *" require />
+                  </div>
                 </div>
-                <div class="logIn-boton">
-                  <input flat type="submit" class="ingresar" value="Ingresar">
+                <div class="formAccount-contenedor">
+                  <div class="account-contraseña">
+                    <input type="password" value="" name="Password" id="Contraseña" placeholder="Ingrese su Contraseña *" require />
+                  </div>
+                  <div class="account-contraseña">
+                    <input type="password" value="" name="Password" id="Contraseña" placeholder="Repita su Contraseña *" require />
+                  </div>
+                </div>
+                <div class="account-boton">
+                  <input type="submit" class="ingresar" value="Registrar">
                 </div>
               </form>
             </div>
@@ -122,7 +140,7 @@
 
 </html>
 <style>
-  .logIn-contenedor {
+  .account-contenedor {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -130,7 +148,7 @@
     width: 100%;
   }
 
-  .logIn {
+  .account {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 25px;
     font-family: sans-serif;
@@ -138,17 +156,30 @@
     line-height: 1;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    max-width: 50%;
+    max-width: 80%;
     max-height: 50%;
     padding: 20px 40px;
     /* box-shadow: 2px 2px 5px #999; */
     box-shadow: 2px 2px 5px white;
+
   }
 
-  .formLogIn {
-    display: grid;
-    grid-template: 100%;
+  .formAccount {
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    /* grid-gap: 10px; */
+    width: 100%;
     margin-top: 50px;
+  }
+
+  .formAccount-contenedor {
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
   }
 
   input[type="text"],
@@ -163,13 +194,13 @@
     /* width: 200px; */
   }
 
-  /* .logIn-sesion {
-    margin-top: 30px;
-  } */
-
-  .logIn-contraseña {
-    margin-top: 20px;
+  .account-sesion {
+    grid-row: 1;
   }
+
+  /* .account-contraseña {
+    margin-top: 20px;
+  } */
 
   .ingresar {
     background: rgba(14, 15, 16, .6);
@@ -190,17 +221,19 @@
 
   }
 
-  .logIn-texto {
-    margin-top: -85px;
+  .account-texto {
+    margin-top: -105px;
     padding: 0;
     text-align: center;
   }
-  .iconoUser{
+
+  .iconoAccount {
     margin: 0;
     padding: 0;
-    width: 20%;
+    width: 14%;
   }
-  .logIn-boton{
+
+  .account-boton {
     margin-bottom: 10px;
   }
 </style>

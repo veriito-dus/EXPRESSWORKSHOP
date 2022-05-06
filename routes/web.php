@@ -43,3 +43,5 @@ Route::put('ExpressWorshop/Inv/editInv/{id}', 'InventarioController@update');
 
 //vistas por asignar
 Route::view('/navInicio', 'Navs/adminNav');
+Route::view('/logIn', 'logIn');
+Route::view('/createAccount', 'createAccount');

@@ -36,7 +36,7 @@
 
       <!-- Logo -->
       <div class="logo">
-        <img src="img/logo.png" alt="">
+        <a href="{{url('/')}}"><img src="img/logo.png" alt=""></a>
       </div>
 
       <ul>
@@ -77,7 +77,7 @@
               <b>Puntialidad</b>
             </span>
           </p>
-          <input type="submit" class="iniciarSesion" value="Ingresar">
+          <a href="{{url('/logIn')}}"><input type="submit" class="iniciarSesion" value="Ingresar"></a>
         </div>
 
         <!-- Social -->

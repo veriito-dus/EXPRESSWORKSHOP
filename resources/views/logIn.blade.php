@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>EXPRESSWORKSHOP</title>
+  <title>EXPRESSWORKSHOP-Iniciar Sesion</title>
   <!-- <link rel="stylesheet" href="css/plugins/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/plugins/font-awesome.css">
   <link rel="stylesheet" href="css/plugins/jquery.animatedheadline.css">
@@ -40,24 +40,6 @@
       </div>
 
       <ul>
-        <!-- <li data-tooltip="home" data-position="top">
-                    <a href="#home" class="icon-h fas fa-house-damage"></a>
-                  </li>
-                  <li data-tooltip="about" data-position="top">
-                    <a href="#about" class="icon-a fas fa-user-tie"></a>
-                  </li>
-                  <li data-tooltip="resume" data-position="top">
-                    <a href="#resume" class="icon-r fas fa-address-book"></a>
-                  </li>
-                  <li data-tooltip="portfolio" data-position="top">
-                    <a href="#portfolio" class="icon-p fas fa-briefcase"></a>
-                  </li>
-                  <li data-tooltip="blog" data-position="top">
-                    <a href="#blog" class="icon-b fas fa-receipt"></a>
-                  </li>
-                  <li data-tooltip="contact" data-position="bottom">
-                    <a href="#contact" class="icon-c fas fa-envelope"></a>
-                  </li> -->
       </ul>
     </nav>
 
@@ -81,22 +63,15 @@
                   <input type="password" value="" name="Password" id="Contraseña" placeholder="Ingrese su Contraseña" />
                 </div>
                 <div class="logIn-boton">
-                  <input flat type="submit" class="ingresar" value="Ingresar">
+                  <input type="submit" class="ingresar" value="Ingresar">
                 </div>
               </form>
             </div>
           </div>
-          <!-- <h1>EXPRESSWORKSHOP</h1>
-          <p class="cd-headline rotate-1">
-            <span>Los mejores en </span>
-            <span class="cd-words-wrapper">
-              <b class="is-visible">Mantenimiento</b>
-              <b>Calidad</b>
-              <b>Tiempo</b>
-              <b>Puntialidad</b>
-            </span>
-          </p> -->
-          <!-- <input type="submit" class="iniciarSesion" value="Ingresar"> -->
+          <div class="account-logIn">
+              <p style="font-size:15px">No tienes cuenta? <a href="{{url('/createAccount')}}" class="account-logIn-boton">REGISTRATE</a></p>
+            </div>
+
         </div>
 
 
@@ -195,12 +170,25 @@
     padding: 0;
     text-align: center;
   }
-  .iconoUser{
+
+  .iconoUser {
     margin: 0;
     padding: 0;
     width: 20%;
   }
-  .logIn-boton{
+
+  .logIn-boton {
     margin-bottom: 10px;
+  }
+
+  .account-logIn {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .account-logIn-boton{
+    cursor: pointer;
+    margin-left:10px
   }
 </style>
