@@ -30,6 +30,7 @@
 #resume:target .pt-resume,
 #vehiculos:target .pt-resume,
 #portfolio:target .pt-portfolio,
+#inventario:target .pt-portfolio,
 #blog:target .pt-blog,
 #contact:target .pt-contact {
 	-webkit-transform: translateX(0%) !important;
