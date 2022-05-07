@@ -382,14 +382,13 @@
                       <p style="text-align:center">Pepipe</p>
                       <p style="text-align:center">3254001512</p>
                       <p style="text-align:center">Cliente</p>
-                      <p><b>Placas vehiculos</b></p>
-                      <ul>
-                        <li>ZME 252</li>
-                        <li>PGW 79E</li>
-                      </ul>
-                      <!-- <div class="blog-btn">
-                          <a href="single-blog.html" class="btn-st">Read More</a>
-                        </div> -->
+                      <div class="blog-btn">
+                        <p style="color:#d94c48"><b>Placas vehiculos</b></p>
+                        <ul>
+                          <li>ZME 252</li>
+                          <li>PGW 79E</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
 
@@ -402,16 +401,16 @@
                       <p style="text-align:center">SergioPri</p>
                       <p style="text-align:center">316954152</p>
                       <p style="text-align:center">Cliente</p>
-                      <p><b>Placas vehiculos</b></p>
-                      <ul>
-                        <li>ZME 252 </li>
-                        <li>PGW 79E</li>
-                        <li>QWB 126</li>
-                        <li>EQK 22B</li>
-                      </ul>
-                      <!-- <div class="blog-btn">
-                          <a href="single-blog.html" class="btn-st">Read More</a>
-                        </div> -->
+
+                      <div class="blog-btn">
+                        <p style="color:#d94c48"><b>Placas vehiculos</b></p>
+                        <ul>
+                          <li>ZME 252 </li>
+                          <li>PGW 79E</li>
+                          <li>QWB 126</li>
+                          <li>EQK 22B</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
 
