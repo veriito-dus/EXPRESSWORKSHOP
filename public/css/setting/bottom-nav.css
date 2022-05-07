@@ -68,9 +68,12 @@
 }
 
 #about:target .pt-about,
+#perfil:target .pt-about,
 #resume:target .pt-resume,
+#vehiculos:target .pt-resume,
 #portfolio:target .pt-portfolio,
 #blog:target .pt-blog,
+#miembros:target .pt-blog,
 #contact:target .pt-contact {
 	-webkit-transform: translateY(0%) !important;
 	-ms-transform: translateY(0%) !important;
@@ -122,10 +125,13 @@
 	.pt-home .lang {
 		bottom: 20px !important;
 	}
+	#perfil:target .pt-about,
 	#about:target .pt-about,
 	#resume:target .pt-resume,
+	#vehiculos:target .pt-resume,
 	#portfolio:target .pt-portfolio,
 	#blog:target .pt-blog,
+	#miembros:target .pt-blog,
 	#contact:target .pt-contact {
 		-webkit-transform: translateY(0%) !important;
 		-ms-transform: translateY(0%) !important;

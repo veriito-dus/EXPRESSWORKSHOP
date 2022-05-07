@@ -676,8 +676,11 @@ blockquote span img {
 	transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
 }
 
+#perfil:target .pt-home, 
+#miembros:target .pt-home,
 #about:target .pt-home, 
 #resume:target .pt-home,
+#vehiculos:target .pt-home,
 #portfolio:target .pt-home,
 #blog:target .pt-home,
 #contact:target .pt-home {
@@ -696,8 +699,11 @@ blockquote span img {
 	background-color: #0e0f10;
 }
 
+#perfil:target .pt-about,
+#miembros:target .pt-blog,
 #about:target .pt-about,
 #resume:target .pt-resume,
+#vehiculos:target .pt-resume,
 #portfolio:target .pt-portfolio,
 #blog:target .pt-blog,
 #contact:target .pt-contact {
@@ -1051,6 +1057,18 @@ blockquote span img {
 	color: #fff;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.pt-about .info .locAdmin {
+	font-size: 15px;
+color: #fff;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.pt-about .info .locAdmin-texto {
+	font-size: 15px;
+	color: #fff;
+	padding: 15px 0 15px 15px;
+
 }
 
 .pt-about .info p {

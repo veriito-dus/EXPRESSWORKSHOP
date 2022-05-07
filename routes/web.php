@@ -49,4 +49,4 @@ Route::view('/clientes', 'Client/indexClient');
 Route::view('/recepcion', 'Reception/indexReception');
 
 //Pruebas
-Route::view('/navInicio', 'Navs/adminNav');
+Route::view('/navInicio', 'prueba');

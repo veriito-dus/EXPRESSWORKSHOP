@@ -65,10 +65,13 @@
 	transform: translateY(200%) !important;
 }
 
+#perfil:target .pt-about,
 #about:target .pt-about,
 #resume:target .pt-resume,
+#vehiculos:target .pt-resume,
 #portfolio:target .pt-portfolio,
 #blog:target .pt-blog,
+#miembros:target .pt-blog,
 #contact:target .pt-contact {
 	-webkit-transform: translateY(17.3%) !important;
 	-ms-transform: translateY(17.3%) !important;
@@ -118,8 +121,11 @@
     	padding: 20px 0 !important;
     	border-left: none !important;
     }
+	#perfil:target .pt-about,
+	#miembros:target .pt-blog,
 	#about:target .pt-about,
 	#resume:target .pt-resume,
+	#vehiculos:target .pt-resume,
 	#portfolio:target .pt-portfolio,
 	#blog:target .pt-blog,
 	#contact:target .pt-contact {
